@@ -8,7 +8,7 @@ jobs:
  buildjob: 
   strategy:
     matrix: 
-     os: [ununtu-20.04, ubuntu-22.04 ]
+     os: [ununtu-20.04, ubuntu-22.04]
      node: [18, 20]
   runs-on: ${{ matrix.os }}
   steps:
